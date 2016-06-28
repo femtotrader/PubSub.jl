@@ -4,4 +4,8 @@
 
 A very basic Julia implementation of pub-sub ([publish/subscribe](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)).
 
+
+Work In Progress!!! Not usable for now!
+
+
 See discussion: https://groups.google.com/forum/#!msg/julia-users/T1LUOtpEXXo/mrQG6L2UAQAJ
