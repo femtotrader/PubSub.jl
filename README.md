@@ -1,4 +1,4 @@
-# PubSub
+# PubSub.jl
 
 [![Build Status](https://travis-ci.org/femtotrader/PubSub.jl.svg?branch=master)](https://travis-ci.org/femtotrader/PubSub.jl)
 
