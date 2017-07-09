@@ -1,15 +1,16 @@
 module PubSub
 
     using DataStructures: OrderedDict, OrderedSet
+    export pub, subscribe, sendMessage
 
-    type MainPubSub
+    struct MainPubSub
     end
 
     pub = MainPubSub()
 
-    typealias Listener Function
+    const Listener = Function
 
-    type Topic
+    struct Topic
         s::AbstractString
     end
 
@@ -22,7 +23,7 @@ module PubSub
     end
 
 
-    type Proxy
+    struct Proxy
         #d_listener::OrderedDict{AbstractString,Listener}
         #d_listener::OrderedDict{Topic,Listener}
         d_listener::OrderedDict{Topic,OrderedSet{Listener}}

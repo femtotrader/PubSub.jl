@@ -1,4 +1,4 @@
-using PubSub: pub, subscribe, sendMessage
+using PubSub
 
 function listener0()
     println("Function listener0")

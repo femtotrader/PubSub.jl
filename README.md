@@ -16,4 +16,4 @@ julia> Pkg.clone("https://github.com/femtotrader/PubSub.jl")
 ## See also
 
  - Initial discussion https://groups.google.com/forum/#!msg/julia-users/T1LUOtpEXXo/mrQG6L2UAQAJ
- - SignalSlot.jl - a basic Julia implementation of signal-slot pattern https://github.com/femtotrader/SignalSlot.jl
+ - [SignalSlot.jl](https://github.com/femtotrader/SignalSlot.jl) - a basic Julia implementation of signal-slot pattern
